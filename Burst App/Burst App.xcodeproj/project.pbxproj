@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B100D79C1837F5B700F40371 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B100D79B1837F5B700F40371 /* Default-568h@2x.png */; };
+		B10A77B8176CD03B006CF87A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10A77B7176CD03B006CF87A /* UIKit.framework */; };
+		B10A77BA176CD03B006CF87A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10A77B9176CD03B006CF87A /* Foundation.framework */; };
+		B10A77BC176CD03B006CF87A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10A77BB176CD03B006CF87A /* CoreGraphics.framework */; };
+		B10A77C2176CD03B006CF87A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B10A77C0176CD03B006CF87A /* InfoPlist.strings */; };
+		B10A77C5176CD03B006CF87A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B10A77C4176CD03B006CF87A /* main.m */; };
+		B10A77C8176CD03B006CF87A /* Card_Game_ModelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B10A77C7176CD03B006CF87A /* Card_Game_ModelAppDelegate.m */; };
+		B10A77CB176CD03B006CF87A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B10A77C9176CD03B006CF87A /* MainWindow.xib */; };
+		B10A77CE176CD03B006CF87A /* Card_Game_ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10A77CD176CD03B006CF87A /* Card_Game_ModelViewController.m */; };
+		B10A77D9176CD07E006CF87A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = B10A77D8176CD07E006CF87A /* Card.m */; };
+		B10A77DF176CD0BF006CF87A /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B10A77DE176CD0BF006CF87A /* Player.m */; };
+		B10A77E2176CD0DD006CF87A /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = B10A77E1176CD0DD006CF87A /* Model.m */; };
+		B12965C917ADD97D0080BB90 /* Card_Game_ModelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B12965C717ADD97D0080BB90 /* Card_Game_ModelViewController.xib */; };
+		B19C951718946BBD0031B958 /* MainMenu_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19C951518946BBD0031B958 /* MainMenu_ViewController.m */; };
+		B19C951818946BBD0031B958 /* MainMenu_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B19C951618946BBD0031B958 /* MainMenu_ViewController.xib */; };
+		B1FAAB8517AB4715005FEC13 /* Club.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FAAB8117AB4714005FEC13 /* Club.png */; };
+		B1FAAB8617AB4715005FEC13 /* Diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FAAB8217AB4714005FEC13 /* Diamond.png */; };
+		B1FAAB8717AB4715005FEC13 /* Heart.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FAAB8317AB4714005FEC13 /* Heart.png */; };
+		B1FAAB8817AB4715005FEC13 /* Spade.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FAAB8417AB4714005FEC13 /* Spade.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B100D79B1837F5B700F40371 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B10A77B3176CD03A006CF87A /* Burst App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Burst App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10A77B7176CD03B006CF87A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B10A77B9176CD03B006CF87A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B10A77BB176CD03B006CF87A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B10A77BF176CD03B006CF87A /* Burst App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Burst App-Info.plist"; sourceTree = "<group>"; };
+		B10A77C1176CD03B006CF87A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B10A77C3176CD03B006CF87A /* Burst App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Burst App-Prefix.pch"; sourceTree = "<group>"; };
+		B10A77C4176CD03B006CF87A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B10A77C6176CD03B006CF87A /* Card_Game_ModelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card_Game_ModelAppDelegate.h; sourceTree = "<group>"; };
+		B10A77C7176CD03B006CF87A /* Card_Game_ModelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card_Game_ModelAppDelegate.m; sourceTree = "<group>"; };
+		B10A77CA176CD03B006CF87A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B10A77CC176CD03B006CF87A /* Card_Game_ModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card_Game_ModelViewController.h; sourceTree = "<group>"; };
+		B10A77CD176CD03B006CF87A /* Card_Game_ModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card_Game_ModelViewController.m; sourceTree = "<group>"; };
+		B10A77D7176CD07E006CF87A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Card.h; sourceTree = "<group>"; };
+		B10A77D8176CD07E006CF87A /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ../Card.m; sourceTree = "<group>"; };
+		B10A77DD176CD0BF006CF87A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		B10A77DE176CD0BF006CF87A /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		B10A77E0176CD0DD006CF87A /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		B10A77E1176CD0DD006CF87A /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		B12965C817ADD97D0080BB90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Card_Game_ModelViewController.xib; sourceTree = "<group>"; };
+		B19C951418946BBD0031B958 /* MainMenu_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu_ViewController.h; sourceTree = "<group>"; };
+		B19C951518946BBD0031B958 /* MainMenu_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu_ViewController.m; sourceTree = "<group>"; };
+		B19C951618946BBD0031B958 /* MainMenu_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu_ViewController.xib; sourceTree = "<group>"; };
+		B1FAAB8117AB4714005FEC13 /* Club.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Club.png; sourceTree = "<group>"; };
+		B1FAAB8217AB4714005FEC13 /* Diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diamond.png; sourceTree = "<group>"; };
+		B1FAAB8317AB4714005FEC13 /* Heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heart.png; sourceTree = "<group>"; };
+		B1FAAB8417AB4714005FEC13 /* Spade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spade.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B10A77B0176CD03A006CF87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10A77B8176CD03B006CF87A /* UIKit.framework in Frameworks */,
+				B10A77BA176CD03B006CF87A /* Foundation.framework in Frameworks */,
+				B10A77BC176CD03B006CF87A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B10A77A8176CD03A006CF87A = {
+			isa = PBXGroup;
+			children = (
+				B100D79B1837F5B700F40371 /* Default-568h@2x.png */,
+				B10A77BD176CD03B006CF87A /* Burst App */,
+				B10A77B6176CD03A006CF87A /* Frameworks */,
+				B10A77B4176CD03A006CF87A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B10A77B4176CD03A006CF87A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10A77B3176CD03A006CF87A /* Burst App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B10A77B6176CD03A006CF87A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B10A77B7176CD03B006CF87A /* UIKit.framework */,
+				B10A77B9176CD03B006CF87A /* Foundation.framework */,
+				B10A77BB176CD03B006CF87A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B10A77BD176CD03B006CF87A /* Burst App */ = {
+			isa = PBXGroup;
+			children = (
+				B10A77C6176CD03B006CF87A /* Card_Game_ModelAppDelegate.h */,
+				B10A77C7176CD03B006CF87A /* Card_Game_ModelAppDelegate.m */,
+				B10A77C9176CD03B006CF87A /* MainWindow.xib */,
+				B19C951418946BBD0031B958 /* MainMenu_ViewController.h */,
+				B19C951518946BBD0031B958 /* MainMenu_ViewController.m */,
+				B19C951618946BBD0031B958 /* MainMenu_ViewController.xib */,
+				B10A77CC176CD03B006CF87A /* Card_Game_ModelViewController.h */,
+				B10A77CD176CD03B006CF87A /* Card_Game_ModelViewController.m */,
+				B12965C717ADD97D0080BB90 /* Card_Game_ModelViewController.xib */,
+				B10A77E0176CD0DD006CF87A /* Model.h */,
+				B10A77E1176CD0DD006CF87A /* Model.m */,
+				B10A77D7176CD07E006CF87A /* Card.h */,
+				B10A77D8176CD07E006CF87A /* Card.m */,
+				B10A77DD176CD0BF006CF87A /* Player.h */,
+				B10A77DE176CD0BF006CF87A /* Player.m */,
+				B1FAAB8117AB4714005FEC13 /* Club.png */,
+				B1FAAB8217AB4714005FEC13 /* Diamond.png */,
+				B1FAAB8317AB4714005FEC13 /* Heart.png */,
+				B1FAAB8417AB4714005FEC13 /* Spade.png */,
+				B10A77BE176CD03B006CF87A /* Supporting Files */,
+			);
+			name = "Burst App";
+			path = "Card Game Model";
+			sourceTree = "<group>";
+		};
+		B10A77BE176CD03B006CF87A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B10A77BF176CD03B006CF87A /* Burst App-Info.plist */,
+				B10A77C0176CD03B006CF87A /* InfoPlist.strings */,
+				B10A77C3176CD03B006CF87A /* Burst App-Prefix.pch */,
+				B10A77C4176CD03B006CF87A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B10A77B2176CD03A006CF87A /* Burst App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10A77D4176CD03B006CF87A /* Build configuration list for PBXNativeTarget "Burst App" */;
+			buildPhases = (
+				B10A77AF176CD03A006CF87A /* Sources */,
+				B10A77B0176CD03A006CF87A /* Frameworks */,
+				B10A77B1176CD03A006CF87A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Burst App";
+			productName = "Card Game Model";
+			productReference = B10A77B3176CD03A006CF87A /* Burst App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B10A77AA176CD03A006CF87A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Stanford University";
+			};
+			buildConfigurationList = B10A77AD176CD03A006CF87A /* Build configuration list for PBXProject "Burst App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B10A77A8176CD03A006CF87A;
+			productRefGroup = B10A77B4176CD03A006CF87A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B10A77B2176CD03A006CF87A /* Burst App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B10A77B1176CD03A006CF87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10A77C2176CD03B006CF87A /* InfoPlist.strings in Resources */,
+				B10A77CB176CD03B006CF87A /* MainWindow.xib in Resources */,
+				B19C951818946BBD0031B958 /* MainMenu_ViewController.xib in Resources */,
+				B1FAAB8517AB4715005FEC13 /* Club.png in Resources */,
+				B1FAAB8617AB4715005FEC13 /* Diamond.png in Resources */,
+				B1FAAB8717AB4715005FEC13 /* Heart.png in Resources */,
+				B100D79C1837F5B700F40371 /* Default-568h@2x.png in Resources */,
+				B1FAAB8817AB4715005FEC13 /* Spade.png in Resources */,
+				B12965C917ADD97D0080BB90 /* Card_Game_ModelViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B10A77AF176CD03A006CF87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10A77C5176CD03B006CF87A /* main.m in Sources */,
+				B19C951718946BBD0031B958 /* MainMenu_ViewController.m in Sources */,
+				B10A77C8176CD03B006CF87A /* Card_Game_ModelAppDelegate.m in Sources */,
+				B10A77CE176CD03B006CF87A /* Card_Game_ModelViewController.m in Sources */,
+				B10A77D9176CD07E006CF87A /* Card.m in Sources */,
+				B10A77DF176CD0BF006CF87A /* Player.m in Sources */,
+				B10A77E2176CD0DD006CF87A /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B10A77C0176CD03B006CF87A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B10A77C1176CD03B006CF87A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B10A77C9176CD03B006CF87A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B10A77CA176CD03B006CF87A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B12965C717ADD97D0080BB90 /* Card_Game_ModelViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B12965C817ADD97D0080BB90 /* en */,
+			);
+			name = Card_Game_ModelViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B10A77D2176CD03B006CF87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B10A77D3176CD03B006CF87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B10A77D5176CD03B006CF87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Card Game Model/Burst App-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Card Game Model/Burst App-Info.plist";
+				PRODUCT_NAME = "Burst App";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B10A77D6176CD03B006CF87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Card Game Model/Burst App-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Card Game Model/Burst App-Info.plist";
+				PRODUCT_NAME = "Burst App";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B10A77AD176CD03A006CF87A /* Build configuration list for PBXProject "Burst App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10A77D2176CD03B006CF87A /* Debug */,
+				B10A77D3176CD03B006CF87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10A77D4176CD03B006CF87A /* Build configuration list for PBXNativeTarget "Burst App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10A77D5176CD03B006CF87A /* Debug */,
+				B10A77D6176CD03B006CF87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B10A77AA176CD03A006CF87A /* Project object */;
+}
