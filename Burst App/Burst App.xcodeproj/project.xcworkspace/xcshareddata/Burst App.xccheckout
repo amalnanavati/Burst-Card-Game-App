@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EE447F63-7A2D-4B2A-BB9D-4662C2FAD3DE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Burst App</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>87065613-9D4E-4A35-9318-BB6123FDA5A1</key>
+		<string>https://github.com/amalnanavati/Burst-Card-Game-App.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Burst App/Burst App.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>87065613-9D4E-4A35-9318-BB6123FDA5A1</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/amalnanavati/Burst-Card-Game-App.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>87065613-9D4E-4A35-9318-BB6123FDA5A1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>87065613-9D4E-4A35-9318-BB6123FDA5A1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Burst-Card-Game-App</string>
+		</dict>
+	</array>
+</dict>
+</plist>

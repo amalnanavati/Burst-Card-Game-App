@@ -1030,7 +1030,7 @@
                                                                   message:endOfRoundMessage
                                                                  delegate:self
                                                         cancelButtonTitle:@"OK"
-                                                        otherButtonTitles:@"Main Menu"];
+                                                        otherButtonTitles:@"Main Menu", nil];
                 [message performSelectorOnMainThread:@selector(show) withObject:nil waitUntilDone:YES];
                 [message release];
             }
